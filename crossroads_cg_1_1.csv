@@ -1,0 +1,21 @@
+We start at the castle gates. This is what I want the “main hub” to be.,,,,
+,,,,
+,,,,
+Castle Gates,To Courtyard*1B1*no,To Throne Room*1B2*no,To Dungeon*1B3*no,1A1
+,,,,
+We have entered the castle. This is where I want the player to make their first important decision.,,,,
+,,,,
+,,,,
+Courtyard,To the Tower*2B1*no,To The Armory*2B2*no,To The Castle Gates*1A1*no,1B1
+Throne Room,To the Tower*2B1*no,To the Treasury*2B3*no,To The Castle Gates*1A1*no,1B2
+Dungeon,To The Armory*2B2*no,To the Tower*2B1*no,To The Castle Gates*1A1*no,1B3
+,,,,
+,,,,
+,,,,
+This is where I want the player to make their final decision or go back if they want to explore some more.,,,,
+,,,,
+Tower,Steal Something*3B1*yes,To The Castle Gates*1A1*no,null,2B1
+Armory,Steal Something*3B1*yes,To The Castle Gates*1A1*no,null,2B2
+Treasury,Steal Something*3B1*yes,To The Castle Gates*1A1*no,null,2B3
+,,,,
+The End!,You Were Caught. Stealing is wrong.,null,null,3B1
